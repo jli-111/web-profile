@@ -5,32 +5,32 @@ export default function Hero() {
     <section className="hero">
       <div className="hero-copy">
         <div className="eyebrow">
-          <i /> 思考更远，让改变发生
+          <i /> THINK FURTHER. MAKE CHANGE.
         </div>
         <h1>
-          让好品牌，
+          Make your brand
           <br />
-          被更多人<span className="under">看见。</span>
+          <span className="under">impossible</span> to ignore.
         </h1>
         <p>
-          我们连接策略、设计与数字体验，
+          We bring strategy, design, and digital experience together
           <br />
-          帮助有想法的企业，把独特价值变成品牌影响力。
+          to turn what makes you different into lasting impact.
         </p>
         <div className="actions">
           <a className="button dark" href="#contact">
-            一起开启下一步 <span>↗</span>
+            Start a conversation <span>↗</span>
           </a>
-          <a className="text-link" href="#services">
-            探索我们的服务 <span>↓</span>
+          <a className="text-link" href="#service">
+            Explore our service <span>↓</span>
           </a>
         </div>
         <div className="hero-bottom">
           <span>STRATEGY. DESIGN. GROWTH.</span>
-          <span>向前，不止一步 ↗</span>
+          <span>MOVE FORWARD WITH INTENTION ↗</span>
         </div>
       </div>
-      <div className="hero-art" aria-label="象征品牌生长的抽象轨道设计">
+      <div className="hero-art" aria-label="Abstract orbital artwork representing brand growth">
         <div className="art-grid" />
         <div className="orbit one" />
         <div className="orbit two" />
@@ -40,13 +40,13 @@ export default function Hero() {
         <span className="art-plus">＋</span>
         <div className="art-card">
           <span>
-            从一个想法
+            From one idea
             <br />
-            到更多可能
+            to what comes next
           </span>
           <b>↗</b>
         </div>
-        <span className="art-caption">BUILT TO MOVE YOU FORWARD — NOVA</span>
+        <span className="art-caption">BUILT TO MOVE YOU FORWARD</span>
       </div>
     </section>
   );

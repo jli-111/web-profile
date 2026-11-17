@@ -3,20 +3,20 @@ import React from 'react';
 export default function About() {
   return (
     <section id="about" className="about section">
-      <div className="section-label">01 / 关于远见</div>
+      <div className="section-label">01 / ABOUT</div>
       <div>
         <h2>
-          不止于被看见。
+          More than being seen.
           <br />
-          <span>更在于被理解、被选择。</span>
+          <span>Be understood. Be chosen.</span>
         </h2>
         <div className="about-bottom">
           <p>
-            每一个品牌，都有值得被发现的独特之处。
+            Every brand has something distinctive worth discovering.
             <br />
-            我们从理解你的业务开始，用清晰的策略和有温度的设计，让复杂的价值变得简单，让品牌与人建立更深的连接。
+            We start by understanding your business, then use clear strategy and thoughtful design to make your value easier to see and connect with.
           </p>
-          <a className="round-link" href="#approach" aria-label="了解合作方式">
+          <a className="round-link" href="#contact" aria-label="Contact us">
             ↗
           </a>
         </div>

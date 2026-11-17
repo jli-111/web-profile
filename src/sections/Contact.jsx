@@ -6,14 +6,14 @@ export default function Contact() {
       <div className="contact-copy">
         <div className="section-label">LET’S MAKE WHAT’S NEXT.</div>
         <h2>
-          你的下一步，
+          What's next
           <br />
-          我们一起。
+          starts here.
         </h2>
         <p>
-          一个新想法，一次新出发。
+          A new idea. A fresh start.
           <br />
-          告诉我们你的目标，让对话成为改变的开始。
+          Tell us what you're working toward. Let's make it happen.
         </p>
         <span className="contact-star" aria-hidden="true">
           ✳

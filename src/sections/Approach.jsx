@@ -3,17 +3,17 @@ import { processSteps } from '../data/content';
 export default function Approach() {
   return (
     <section id="approach" className="process section">
-      <div className="section-label">03 / 合作方式</div>
+      <div className="section-label">03 / OUR APPROACH</div>
       <div className="section-head">
         <h2>
-          好的合作，
+          Great work starts
           <br />
-          从同一个方向开始。
+          in the same direction.
         </h2>
         <p>
-          保持沟通，让过程透明。
+          Clear communication. An open process.
           <br />
-          把每一步，都走得更扎实。
+          Thoughtful progress at every step.
         </p>
       </div>
       <div className="steps">

@@ -4,20 +4,20 @@ export default function Services() {
   const [activeIndex, setActiveIndex] = useState(0);
   const selectedService = services[activeIndex];
   return (
-    <section id="services" className="services section">
+    <section id="service" className="services section">
       <div className="section-head">
         <div>
-          <div className="section-label">02 / 我们的服务</div>
-          <h2>从想法到影响力。</h2>
+          <div className="section-label">02 / SERVICE</div>
+          <h2>From idea to impact.</h2>
         </div>
         <p>
-          每一项能力，服务于同一个目标：
+          Every capability serves one purpose:
           <br />
-          让你的品牌，向前一步。
+          moving your brand forward.
         </p>
       </div>
       <div className="service-layout">
-        <div className="tabs" role="tablist" aria-label="服务类别">
+        <div className="tabs" role="tablist" aria-label="Service categories">
           {services.map((service, index) => (
             <button
               id={'tab-' + index}

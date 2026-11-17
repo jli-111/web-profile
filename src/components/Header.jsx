@@ -4,25 +4,22 @@ import { navigation } from '../data/content';
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
-    <header>
+    <header id="top">
       <Logo />
       <button
         className="mobile"
-        aria-label="切换导航"
+        aria-label="Toggle navigation"
         aria-expanded={menuOpen}
         onClick={() => setMenuOpen(!menuOpen)}
       >
         ☰
       </button>
-      <nav className={menuOpen ? 'open' : ''}>
+      <nav className={menuOpen ? 'open' : ''} aria-label="Main navigation">
         {navigation.map(({ id, label }) => (
           <a key={id} href={'#' + id} onClick={() => setMenuOpen(false)}>
             {label}
           </a>
         ))}
-        <a className="nav-cta" href="#contact" onClick={() => setMenuOpen(false)}>
-          聊聊你的项目 ↗
-        </a>
       </nav>
     </header>
   );

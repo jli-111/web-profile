@@ -1,10 +1,8 @@
 import React from 'react';
-import { brand } from '../data/content';
 export default function Logo() {
   return (
-    <a className="logo" href="#">
-      ✳ {brand.name}
-      <span>{brand.chineseName}</span>
+    <a className="logo" href="#top" aria-label="Home">
+      <img src="/images/logo.jpg" alt="N" />
     </a>
   );
 }

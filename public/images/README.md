@@ -1,3 +1,3 @@
-# 图片资源
+# image source
 
-将 logo、团队照片等文件放在此目录，代码中使用 `/images/文件名.png` 引用。
+cited by `/images/文件名.png` 

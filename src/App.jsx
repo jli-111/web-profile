@@ -8,12 +8,13 @@ import About from './sections/About';
 import Services from './sections/Services';
 import Approach from './sections/Approach';
 import Contact from './sections/Contact';
-// 这里负责页面顺序；具体区块分别在 sections 中维护。
+// Page order lives here; each section is maintained separately.
 export default function App() {
   return (
     <>
-      <div className="demo">{brand.demoNotice}</div>
       <Header />
+      <div className="header-spacer" aria-hidden="true" />
+      <div className="demo">{brand.demoNotice}</div>
       <main>
         <Hero />
         <BrandStrip />
