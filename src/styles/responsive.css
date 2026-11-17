@@ -1,0 +1,195 @@
+/* 断点样式统一维护，避免散落在组件中。 */
+@media (min-width: 1500px) {
+  .services,
+  .contact {
+    max-width: 1268px;
+    padding: 80px;
+  }
+}
+@media (max-width: 900px) {
+  nav {
+    gap: 18px;
+  }
+  .hero {
+    gap: 25px;
+  }
+  .hero-art {
+    min-height: 460px;
+  }
+  .service-panel {
+    grid-template-columns: 1fr;
+    padding: 25px;
+  }
+  .service-symbol {
+    font-size: 85px;
+  }
+  .contact {
+    gap: 35px;
+  }
+  .hero-bottom {
+    font-size: 8px;
+    gap: 12px;
+  }
+  .actions {
+    gap: 15px;
+  }
+  .button {
+    gap: 15px;
+  }
+  .ticker span:last-child {
+    display: none;
+  }
+  .section {
+    padding-top: 65px;
+    padding-bottom: 65px;
+  }
+}
+@media (max-width: 640px) {
+  header {
+    padding: 20px 6%;
+    position: relative;
+  }
+  .logo {
+    font-size: 25px;
+  }
+  .mobile {
+    display: block;
+    border: 0;
+    background: none;
+    font-size: 23px;
+    color: #203b31;
+  }
+  nav {
+    display: none;
+    position: absolute;
+    top: 75px;
+    left: 0;
+    right: 0;
+    background: #f8f9f4;
+    padding: 25px;
+    z-index: 5;
+    border-bottom: 1px solid #dce4d2;
+  }
+  nav.open {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .hero {
+    grid-template-columns: 1fr;
+    padding-top: 0;
+    padding-bottom: 35px;
+  }
+  .hero-copy {
+    padding-top: 20px;
+  }
+  h1 {
+    font-size: 43px;
+    margin-top: 22px;
+  }
+  .hero p {
+    font-size: 13px;
+  }
+  .hero-bottom {
+    padding-top: 30px;
+  }
+  .hero-art {
+    min-height: 390px;
+  }
+  .orbit {
+    top: 110px;
+  }
+  .sphere {
+    top: 120px;
+  }
+  .ticker {
+    font-size: 9px;
+    gap: 16px;
+    padding: 15px;
+  }
+  .ticker span:nth-last-child(3),
+  .ticker b:last-of-type {
+    display: none;
+  }
+  .about {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .about-bottom {
+    gap: 20px;
+  }
+  .about p {
+    font-size: 12px;
+  }
+  .section-head {
+    display: block;
+  }
+  .section-head p {
+    margin-top: 20px;
+  }
+  .service-layout {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .tabs {
+    display: flex;
+    gap: 5px;
+  }
+  .tabs button {
+    padding: 14px 10px;
+    gap: 9px;
+    border-radius: 4px;
+  }
+  .tabs span {
+    font-size: 14px;
+  }
+  .tabs em {
+    font-size: 7px;
+  }
+  .tabs b {
+    display: none;
+  }
+  .tabs small {
+    font-size: 8px;
+  }
+  .service-panel {
+    grid-template-columns: 80px 1fr;
+    padding: 20px;
+    gap: 20px;
+  }
+  .service-symbol {
+    font-size: 78px;
+  }
+  .service-content h3 {
+    font-size: 19px;
+  }
+  .steps {
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+  }
+  .contact {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+  .contact h2 {
+    font-size: 38px;
+  }
+  .contact-star {
+    display: none;
+  }
+  .contact form {
+    padding: 23px;
+  }
+  .footer-bottom {
+    gap: 20px;
+    font-size: 8px;
+  }
+  footer > span {
+    display: none;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

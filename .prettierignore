@@ -1,0 +1,7 @@
+node_modules
+dist
+package-lock.json
+.openai
+.sites-runtime
+.sites-checkout
+.git
